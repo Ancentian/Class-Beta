@@ -1,12 +1,15 @@
 		body { 
 			background-color: powderblue;
-			opacity: 0.3;
 		 }
 		h1 { 
 			color: maroon; 
 			font-family: comic sans MS;
 			text-align: center;
-
+		}
+		h2{
+			color: navy;
+			font-family: sans-serif;
+			text-align: center;
 		}
 		p { 
 			color: blue; 
@@ -19,4 +22,54 @@
 			height: 250px;
 			border-radius: 5px;
 			border: 1px solid blue;
+		}
+		ul
+		{
+			
+		}
+
+		/*unvisited link*/
+		a:link{
+			color: maroon;
+		}
+
+		/*visited link*/
+		a:visited{
+			color: green;
+		}
+
+		/*mouse over the link*/
+		a:hover{
+			color: blue;
+		}
+
+		/*Active link/Selected link*/
+		a:active{
+			color: yellowgreen;
+		}
+
+		table
+		{
+			border-spacing: 20px;
+		}
+
+		table, th, td {
+			border: 2px solid tomato;
+			border-collapse: collapse;
+			border-radius: 10px;
+
+		}
+
+		th, td
+		{
+			background-color: beige;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			padding-left: 30px;
+			padding-right: 40px;
+		}
+
+		tr:hover
+		{
+			background-color: #D6EEEE;
 		}
